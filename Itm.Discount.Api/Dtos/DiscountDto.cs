@@ -1,0 +1,1 @@
+﻿public record DiscountDto(string Codigo,decimal Porcentaje);

@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Itm.Discount.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/discounts/{code}": {
+      "get": {
+        "tags": [
+          "Itm.Discount.Api"
+        ],
+        "operationId": "GetDiscount",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
